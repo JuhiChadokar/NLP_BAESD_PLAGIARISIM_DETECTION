@@ -5,8 +5,11 @@ This project uses a Siamese LSTM neural network to detect plagiarism between two
 
 Key points:
 
-Dataset: MIT Plagiarism Detection dataset (source text, candidate text, label)
-Preprocessing: text cleaning (lowercasing, punctuation removal) + tokenization/padding
-Model: Siamese LSTM (shared weights) with a Dense classification head
-Output: binary prediction — plagiarized vs. not plagiarized
-Includes a predict_pair() function to test the model on custom text pairs
+Dataset: MIT Plagiarism Detection Dataset — source text, candidate text, and label
+
+Preprocessing: Text cleaning, lowercasing, punctuation removal, tokenization, and padding
+
+Model: Siamese LSTM with shared weights and a Dense classification head
+Output: Binary prediction — Plagiarized / Not Plagiarized
+
+Includes a predict_pair() function to test the model on custom text pairs make this in bullet
